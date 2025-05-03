@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+.hide-scrollbar {
+  scrollbar-width: none; /* For Firefox */
+}
+
+.toaster {
+  color: #4b5563; /* Tailwind's text-gray-600 */
+}
